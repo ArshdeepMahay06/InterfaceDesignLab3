@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+  font-size: 3em;
+  color: #2a5252;
+}
+
+button {
+  font-size: 1.2em;
+  position: relative;
+  border: 2px solid;
+  display:block;
+  margin: auto;
+  padding: .7em;
+  padding-right:2.7em;
+  color: rebeccapurple;
+  background: transparent;
+  border-radius: 3px;
+  transition: background .3s;
+  color:green;
+}
+
+button:hover{
+      color: white;
+      background: rebeccapurple;
+      border-color: rebeccapurple;
+}
+
+.svg-icon {
+ position: relative;
+ top: .125em;
+ flex-shrink: 0;
+ height: 1em;
+ width: 1em;
+ fill: currentColor;
+ transition: fill .3s;
+}
